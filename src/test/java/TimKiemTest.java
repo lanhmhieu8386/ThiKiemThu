@@ -17,7 +17,7 @@ public class TimKiemTest {
         options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-
+        System.out.println("HHAHHAHAHA");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
